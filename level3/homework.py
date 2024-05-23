@@ -6,6 +6,6 @@ print(5/5) #გაყოფა
 number = 7 #აქ შევქმენი ცვლადი მივანიჭე ციფრის მნიშვნელობა
 number1 = 4
 print(number + number1) #გავაკეთე ყველა არითმეტიკური ოპერაცია
-print(number / number1) #ბრჭყალები რადგან ცვლადია
+print(number / number1) #ბრჭყალები არ გვინდა რადგან ცვლადია
 print(number * number1)
 print(number - number1)
