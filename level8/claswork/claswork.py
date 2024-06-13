@@ -36,4 +36,3 @@ print(num >= 1 or num <= 10) # True
 print(num >= 1 or num <= 4) # True
 print(num > 5 or num <= 10) # True
 print(num > 5 or num > 10) # False
-
