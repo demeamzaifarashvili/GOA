@@ -148,7 +148,59 @@ print(my_list.count(3))
 #
 my_list5 = [True,"deme",3,3]
 print(my_list5.count("nika"))
+#
+numbers1 = ["deme","nika","luka"]
+numbers2 = [3,4,5,6,8,9,9]
+numbers1.extend(numbers2)
+print(numbers1)
+#
+def separate_lists(lst):
+    integers = []
+    strings = []
 
+    for item in lst:
+        if isinstance(item, int):
+            integers.append(item)
+        elif isinstance(item, str):
+            strings.append(item)
+           
+    return integers, strings
+
+mixed_list = [1, 'hello', 3, 'world', 5, 'python', 7]
+integers, strings = separate_lists(mixed_list)
+
+print("Integers:", integers)
+print("Strings:", strings)
+#
+def separate_odd_even_and_sum(list1, list2):
+    odd_sum = 0
+    even_sum = 0
+    
+
+    def is_odd(num):
+        return num % 2 != 0
+
+    for num in list1:
+        if is_odd(num):
+            odd_sum += num
+        else:
+            even_sum += num
+
+    for num in list2:
+        if is_odd(num):
+            odd_sum += num
+        else:
+            even_sum += num
+    
+    return odd_sum, even_sum
+
+list1 = [1, 2, 3, 4, 5]
+list2 = [6, 7, 8, 9, 10]
+
+odd_sum, even_sum = separate_odd_even_and_sum(list1, list2)
+
+print(f"Sum of odd numbers: {odd_sum}")
+print(f"Sum of even numbers: {even_sum}")
 
 
 
