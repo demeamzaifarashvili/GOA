@@ -1,0 +1,20 @@
+::placeholder {
+    color:red ; font-size: smaller;
+}
+
+body {
+    background-color: burlywood;
+}
+
+h1 {
+    color: blue;text-align: center;
+}
+
+h2 {
+    color:black;font-size: x-large; 
+}
+
+button {
+    color: black; background-color: yellow;
+}
+
