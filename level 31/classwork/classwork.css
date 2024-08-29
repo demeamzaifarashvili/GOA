@@ -1,0 +1,58 @@
+label {
+    font-size: small;
+    font-weight: 600;
+    color: rgb(58, 46, 46);
+}
+
+form{
+    width: 300px;
+    background-color: aliceblue;
+    box-shadow: 3px 3px 15px gray;
+    border-radius: 10px;
+}
+
+input{
+    padding: 7px;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    color: rgb(58, 48, 48);
+    width: 100%;
+}
+
+button{
+    padding: 7px;
+    background-color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    color: white;
+    width: 100%;
+    border-radius: 7px;
+}
+
+input :focus {
+    outline: none;
+}
+
+.form-head{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+.form-main{
+    padding: 40px;
+}
+
+.form-footer{
+    padding: 20px;
+    text-align: center;
+    font-size: small;
+    color: gray;
+}

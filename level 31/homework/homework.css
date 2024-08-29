@@ -1,0 +1,46 @@
+
+label{
+    font-size: small;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+form{
+    width: 300px;
+    background-color:darkslateblue;
+    box-shadow: 8px 8px 15px rebeccapurple;
+    border-radius: 7px;
+}
+
+input{
+    padding: 7px;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    color: rgb(58, 48, 48);
+    width: 100%;
+}
+
+.form-main{
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+    font-size: xx-large;
+}
+
+button{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 5px ;
+    border: 2px solid aliceblue;
+    width: 100%;
+}
+
+.form-head{
+    text-align: center;
+    padding: 10px;
+}
