@@ -1,0 +1,53 @@
+.first{
+    background-color: rgb(248, 248, 248);
+    border-radius: 15px;
+    width: 250px;
+    height: 180px;
+    background-image:url("korea.jpg") ;
+}
+
+.second{
+    background-color: rgb(248, 248, 248);
+    border-radius: 15px;
+    width: 250px;
+    height: 180px;
+    background-image: url("italy.jpg");
+
+}
+
+.third{
+    background-color: rgb(248, 248, 248);
+    border-radius: 15px;
+    width: 250px;
+    height: 180px;
+    background-image: url("brazil.jpg");
+
+}
+
+.fourth{
+    background-color: rgb(248, 248, 248);
+    border-radius: 15px;
+    width: 250px;
+    height: 180px;
+    background-image: url("georgia.jpg");
+
+}
+
+.main{
+    width: 1200;
+    height: 500;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/* sapce-between ashorebs ertmanets elementebs*/
+/* center shuashi gadaaq elementebu */
+/* flex end boloshi miaq elementebi*/
+/* flex start dasawyishi miaq elementebi*/
+
+
+
+
