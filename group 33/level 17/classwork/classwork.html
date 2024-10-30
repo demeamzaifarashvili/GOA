@@ -1,0 +1,39 @@
+
+<html>
+<head>
+
+</head>
+<body>
+<h1>choose color</h1>
+<label for="colors">color:</label>
+<select id="colors" class="color-select" onchange="changeColor()">
+    <option value="">-- chooose --</option>
+    <option value="red">red</option>
+    <option value="green">green</option>
+    <option value="blue">blue</option>
+    <option value="yellow">yelow</option>
+    <option value="purple">purple</option>
+</select>
+
+<h2>2</h2>
+<form action="#" method="post">
+    <label for="full-name">name</label><br>
+    <input type="text" id="full-name" name="full-name" required><br><br>
+
+    <label for="email">mail:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="dropdown">choose:</label><br>
+    <select id="dropdown" name="dropdown">
+        <option value="option1"> 1</option>
+        <option value="option2"> 2</option>
+        <option value="option3"> 3</option>
+    </select><br><br>
+<p id="result" style="margin-top: 20px;">your color: <span id="colorName"></span></p>
+
+
+</body>
+</html>

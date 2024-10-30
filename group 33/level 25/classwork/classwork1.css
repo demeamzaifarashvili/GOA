@@ -1,0 +1,15 @@
+.a1:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.a2:visited{
+    color: crimson;
+}
+
+button:hover{
+    color: maroon;
+    background-color: black;
+    border-radius: 5px 5px 5px;
+}
+
