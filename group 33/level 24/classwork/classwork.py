@@ -12,4 +12,4 @@
 
 # msgavsebebi lists tuples da sets aqvt is rom samiveshi vinaxavt monacemebs 
 # listze visyenebt yvela funqcias rogorebicaa (append, len , slicing da sxva)
-#magram set da tuple shezgudulebi arian funqciebshi matze ar moqmedebs yvelaferi
+#magram set da tuple shezgudulebi arian funqciebshi matze ar moqmedebs
