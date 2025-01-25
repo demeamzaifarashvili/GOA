@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <style>
+        body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+           
+        }
+
+        .div1 {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation: move 4s ease-in-out infinite;
+        }
+
+        @keyframes move {
+        0% {
+            transform: translateX(0);
+            }
+
+        50% {
+            transform: translateX(100vw);
+            }
+            
+        100% {
+            transform: translateX(0);
+            }
+        }
+
+        </style>
+    </head>
+    <body>
+        <div class="div1"></div>
+    </body>
+</html>
