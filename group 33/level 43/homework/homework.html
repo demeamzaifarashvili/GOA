@@ -1,1 +1,42 @@
-<!--soon-->
+
+<html>
+<head>
+    <script>
+        function getSelectedRadioValue() {
+            const radios = document.getElementsByName('fruit');
+            let selectedValue = '';
+            
+            for (const radio of radios) {
+                if (radio.checked) {
+                    selectedValue = radio.value;
+                    break;
+                }
+            }
+
+            if (selectedValue) {
+                alert('click: ' + selectedValue);
+            } else {
+                alert('error!')
+            }
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <h2></h2>
+        <label>
+            <input type="radio" name="car" value="bmw"> bmw
+        </label><br>
+        <label>
+            <input type="radio" name="fruit" value="apple"> apple
+        </label><br>
+        <label>
+            <input type="radio" name="animal" value="dog"> dog
+        </label><br>
+        <label>
+            <input type="radio" name="age" value="15"> 15
+        </label><br>
+        <button type="button" onclick="getSelectedRadioValue()">submit</button>
+    </form>
+</body>
+</html>
